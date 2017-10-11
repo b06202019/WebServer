@@ -1,6 +1,7 @@
 const http = require('http');
 // 建立server
 var server = http.createServer(function(req,res){
+    var port = process.env.PORT || 1234;
     var resHeader = {
         'Accept-Charset': 'utf-8',
         'Accept-Language':'zh-TW',
@@ -12,5 +13,5 @@ var server = http.createServer(function(req,res){
     res.end();
 });
 //將server開啟port1234
-server.listen(1234)
+server.listen(port)
 console.log('Server running at http://127.0.0.1:1234');
