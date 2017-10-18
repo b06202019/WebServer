@@ -12,7 +12,7 @@
     "url": "git+https://github.com/b06202019/WebServer.git"
   },
   "author": "許家昌",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/b06202019/WebServer/issues"
   },
